@@ -7,9 +7,19 @@
             'access callback' => TRUE,
             'type' => MENU_NORMAL_ITEM,
         );
+        $items['farewell'] = array(
+            'title' => 'Farewell Friend!',
+            'page callback' => 'say_farewell',
+            'access callback' => TRUE,
+            'type' => MENU_NORMAL_ITEM,
+        );
         return $items;
     }
 
     function say_hello() {
         return '<p>Hello my dear friend!</p>';
+    }
+
+    function say_farewell() {
+        return '<p>Fare thee well my dear friend!</p>';
     }
