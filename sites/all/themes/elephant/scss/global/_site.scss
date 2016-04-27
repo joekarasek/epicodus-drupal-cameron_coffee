@@ -1,0 +1,25 @@
+#main {
+  border: solid 1px $grey-dark;
+  padding: $gap;
+  margin: $gap;
+  #content {
+    border: dotted 1px green;
+    margin: $gap;
+    padding: $gap;
+  }
+  #sidebar-first {
+    margin: $gap;
+    padding: $gap;
+    border: dotted 1px $blue;
+  }
+  @media (min-width: $mq-medium) {
+    display: flex;
+    justify-content: space-between;
+    #content {
+      width: 66%;
+    }
+    #sidebar-first {
+      width: 33%;
+    }
+  }
+}
