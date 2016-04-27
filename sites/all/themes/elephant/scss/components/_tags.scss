@@ -9,11 +9,7 @@
   .field-item {
     margin-right: $gap;
     a {
-      color: white;
-      background: $blue;
-      padding: 3px;
-      border-radius: 5px;
-      text-decoration: none;
+      @include tag($color: $blue, $size: 3px, $text-color: white);
     }
   }
 }
