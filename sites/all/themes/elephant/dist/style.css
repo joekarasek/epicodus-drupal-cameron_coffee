@@ -1,0 +1,18 @@
+body {
+  color: #1a1a1a;
+  background: #E0DDDD; }
+
+.field-name-field-tags {
+  margin-bottom: 10px; }
+  .field-name-field-tags .field-label {
+    display: none; }
+  .field-name-field-tags .field-items {
+    display: flex; }
+  .field-name-field-tags .field-item {
+    margin-right: 5px; }
+    .field-name-field-tags .field-item a {
+      color: white;
+      background: rgba(72, 131, 249, 0.74);
+      padding: 3px;
+      border-radius: 5px;
+      text-decoration: none; }

@@ -1,0 +1,19 @@
+.field-name-field-tags {
+  margin-bottom: ($gap * 2);
+  .field-label {
+    display: none;
+  }
+  .field-items {
+    display: flex;
+  }
+  .field-item {
+    margin-right: $gap;
+    a {
+      color: white;
+      background: $blue;
+      padding: 3px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+  }
+}

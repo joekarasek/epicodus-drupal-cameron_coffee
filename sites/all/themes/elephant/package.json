@@ -1,0 +1,25 @@
+{
+  "name": "epicodus-drupal-cameron_coffee",
+  "version": "1.0.0",
+  "description": "CONTENTS OF THIS FILE ---------------------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joekarasek/epicodus-drupal-cameron_coffee.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joekarasek/epicodus-drupal-cameron_coffee/issues"
+  },
+  "homepage": "https://github.com/joekarasek/epicodus-drupal-cameron_coffee#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1",
+    "gulp-sass-glob": "^1.0.6"
+  }
+}
