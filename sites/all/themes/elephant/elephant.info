@@ -2,4 +2,4 @@ name = Elephant
 description = A test theme by Joe Karasek
 version = VERSION
 core = 7.x
-stylesheets[all][] = dist/style.css
+stylesheets[all][] = css/style.css
